@@ -1,7 +1,9 @@
-Charmed PyTorch Operator
-========================
+PyTorch Operator
+================
 
-This charm is part of the Kubeflow bundle. For instructions on how to deploy it,
-see https://jaas.ai/kubeflow.
+### Overview
+This repository hosts the Kubernetes Python Operator for PyTorch
+(see [CharmHub](https://charmhub.io/?q=pytorch-operator)).
 
-Upstream documentation can be found at https://github.com/kubeflow/pytorch-operator
+The PyTorch Operator is a Python script that wraps the latest released PyTorch manifest,
+providing lifecycle management and handling events (install, upgrade, integrate, remove).

@@ -4,3 +4,7 @@ options:
     default: ''
     description: |
       Optional default image to use for PyTorch jobs.
+  monitoring-port:
+    type: string
+    default: '8443'
+    description: Monitoring port for Prometheus
